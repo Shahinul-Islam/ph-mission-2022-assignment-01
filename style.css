@@ -1,12 +1,10 @@
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    
 }
 
 h1{
     font-size: 40px;
-    
 }
 h2{
     font-size: 30px;
@@ -41,6 +39,10 @@ h1,p{
     
 }
 
+#left-border h1{
+    margin-left: 10px;
+}
+
 .text-highlight{
     color: indigo;
 }
@@ -48,7 +50,7 @@ h1,p{
 .colored-btn{
     text-decoration: none;
     color: white;
-    background-color: #660766;
+    background-image: linear-gradient(145deg,#822c8a, indigo);
     padding: 10px 30px;
     border-radius: 5px;
 }
@@ -56,6 +58,8 @@ h1,p{
 .top-half p{
     padding: 20px 0;
 }
+
+/*-------my mission section----*/
 
 .my-mission{
     width: 100%;
@@ -128,13 +132,10 @@ h1,p{
 }
 .contact-head{
     text-align: center;
-    
 }
-
 .contact{
     display: flex;
     justify-content: space-evenly;
-    
 }
 
 .contact-left{
@@ -157,13 +158,11 @@ footer{
     text-align: center;
     background-color: black;
     padding: 20px 0;
-    
 }
 
 footer h1{
     font-family: 'Yeseva One', cursive;
     color: white;
-    
 }
 footer p{
     color: white;
